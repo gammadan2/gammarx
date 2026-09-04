@@ -135,7 +135,7 @@ public class OnlineManager {
                 ));
         post.addParam("version", onlineVersion);
 
-        ArrayList<String> response = sendRequest(post, endpoint + "login.php");
+        ArrayList<String> response = sendRequest(post, endpoint + "login");
 
         if (response == null) {
             return false;
